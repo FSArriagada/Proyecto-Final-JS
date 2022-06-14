@@ -69,7 +69,7 @@ function restarCant(id) { //Funcion para restar cantidad cada vez que se presion
       mostrarTotalCarrito();
     } else {
         Swal.fire({
-            title: `¿Desea eliminar ${carrito[index].marca} ${carrito[index].modelo} del carrito de compras?`,
+            title: `¿Desea eliminar ${carrito[index].descripcion} del carrito de compras?`,
             icon: 'question',
             confirmButtonText: 'Si',
             cancelButtonText: 'No',

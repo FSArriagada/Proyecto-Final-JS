@@ -94,3 +94,53 @@
     height: 100%;
 }
 
+
+/* -------------------Footer------------------ */
+
+.icon{
+    width: 1.5625em;
+    height: 1.5625em;
+}
+.iconos_redes ul li{
+    border-style:solid;
+    border-radius: 100%;
+    border: none;
+    padding: 0.3125em;
+}
+.iconos_redes ul{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%; 
+}
+
+.iconos_redes ul li a{
+    text-decoration: none;
+}
+footer{
+    background-color:#000000;
+    padding: 0.625em;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}  
+
+.icon{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(103%) contrast(104%);
+}
+
+.icon:hover{
+    filter: invert(20%) sepia(6%) saturate(2759%) hue-rotate(191deg) brightness(93%) contrast(84%);
+    
+}
+.img-resp{
+    max-width: 100%;
+}
+.Copyright{
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
